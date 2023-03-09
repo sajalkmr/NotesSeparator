@@ -17,7 +17,7 @@ A deep learning model to separate Handwritten notes and non notes images with Py
 	<li>Install the required packages listed in the <code>requirements.txt</code> file by running <code>pip install -r requirements.txt</code>.</li>
 	<li>Place the images you want to classify in the <code>test_images</code> directory.</li>
 	<li>Put your model in the <code>models</code> directory. The model should be saved in the <code>.h5</code> format.</li>
-	<li>Run the <code>NotesSeparator.py</code> script to classify the images: <code>NotesSeparator.ipynb if you are running in Jupyter Notebook</code>.</li>
+	<li>Run the <code>NotesSeparator.py</code> script to classify the images: <code>NotesSeparator.ipynb </code>if you are running in Jupyter Notebook.</li>
 	<li>The classified images will be saved in the <code>output</code> directory.</li>
 </ol>
 
