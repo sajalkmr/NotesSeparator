@@ -8,6 +8,7 @@ A deep learning model to separate Handwritten notes and non notes images with Py
 	<li>TensorFlow 2.0+</li>
 	<li>OpenCV 4.0+</li>
   <li>Numpy</li>
+  <li>Json</li>
 </ul>
 
 <h2>Usage</h2>
@@ -15,7 +16,8 @@ A deep learning model to separate Handwritten notes and non notes images with Py
 	<li>Clone this repository to your local machine.</li>
 	<li>Install the required packages listed in the <code>requirements.txt</code> file by running <code>pip install -r requirements.txt</code>.</li>
 	<li>Place the images you want to classify in the <code>test_images</code> directory.</li>
-	<li>Run the <code>classify_notes.py</code> script to classify the images: <code>python classify_notes.py</code>.</li>
+	<li>Put your model in the <code>models</code> directory. The model should be saved in the <code>.h5</code> format.</li>
+	<li>Run the <code>NotesSeparator.py</code> script to classify the images: <code>NotesSeparator.ipynb if you are running in Jupyter Notebook</code>.</li>
 	<li>The classified images will be saved in the <code>output</code> directory.</li>
 </ol>
 
@@ -56,9 +58,10 @@ A deep learning model to separate Handwritten notes and non notes images with Py
 <h2>Files Saved After Classification</h2>
 <p>The classified images are saved in either the <code>notes</code> or <code>non_notes</code> directory in the <code>output</code> folder depending on their classification. Additionally, a <code>results.json</code> file is created in the <code>output/results</code> folder that contains the results of the classification for each image.</p>
 
-<h2>Training Results Images</h2>
-<p>The training results images are not included in this repository, but you can generate them by training the model yourself using the <code>train_notes.py</code> script.</p>
+<h2>Contributing</h2>
+<p>Contributions are welcome. Please fork the repository and submit a pull request.</p>
 
-<h2>Note</h2>
+<h2>License</h2>
+<p>This project is licensed under the MIT License.</p>
 
 
